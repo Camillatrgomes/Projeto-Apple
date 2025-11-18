@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import Intro from "./components/intro"
 import Highlight from "./components/Highlight"
 import Colors from "./components/colors"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Intro />
         <Highlight/>
         <Colors/>
+        <Footer/>
       </div>
   )
 }

@@ -6,7 +6,7 @@ const specs = [
             { value: '12MP', label: 'Telefoto 5x', label2: 'Zoom óptico de 5x com estabilização', color: 'text-blue-600'},
 ];
     return(
-        <section className="bg-black py-20 px-6 ">
+        <section className="bg-black py-20 px-6">
             <div className="max-w-7xl mx-auto"  id="design">
                     <div className="text-center mb-16">
                         <h2 className="text-5xl font-bold mb-4">
@@ -39,7 +39,6 @@ const specs = [
                         <li>Ray tracing acelerado por hardware</li>
                     </ul>
                 </div>
-           </div>
         <div id="camera" className="text-center">
        <div className="grid grid-cols-3 gap-6">
             {specs.map( (spec, index) => (
@@ -52,8 +51,10 @@ const specs = [
             ))}
         </div>
         </div>
+        </div>
 
-     {/*  <div id="camera" className="text-center">
+     {/*OUTRA FORMA DE TER O MESMO RESULTADO SEM O MAP
+       <div id="camera" className="text-center">
                     <h3 className="text-4xl font-bold mb-10">Sistema de câmera Pro avançado</h3>
                 <div className="grid grid-cols-3 gap-6">
                     <div className="bg-gray-900 rounded-2xl p-8 hover:scale-105 transition-all duration-300 cursor-pointer">
