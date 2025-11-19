@@ -42,8 +42,8 @@ const specs = [
         <div id="camera" className="text-center">
        <div className="grid grid-cols-3 gap-6">
             {specs.map( (spec, index) => (
-                <div key={index} className="bg-gray-900  rounded-2xl p-8 hover:scale-105 transition-all duration-300 cursor-pointer"> 
-                    <h3 className={`text-4xl sm:text-2xl font-bold mb-4 ${spec.color}`}>{spec.value}</h3>
+                <div key={index} className="bg-gray-900 rounded-2xl p-8 hover:scale-105 transition-all duration-300 cursor-pointer"> 
+                    <h3 className={`text-4xl font-bold mb-4 ${spec.color}`}>{spec.value}</h3>
                     <p className="text-xl font-semibold mb-2">{spec.label}</p>
                     <p className="text-gray-400">{spec.label2}</p>
 
