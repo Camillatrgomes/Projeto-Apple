@@ -1,25 +1,24 @@
 {
   "name": "iphone-17",
-  "private": true,
-  "version": "0.0.0",
-  "homepage": "https://camillatrgomes.github.io/Projeto-Apple",
+  "homepage": "https://camillatrgomes.github.io/Projeto-Apple/",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview", 
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "start": "react-scripts start",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "vite test",
+    "eject": "vite eject"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",
     "gh-pages": "^6.3.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.6",
     "tailwindcss": "^4.1.17"
   },
   "devDependencies": {
