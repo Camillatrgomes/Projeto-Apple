@@ -1,8 +1,8 @@
 import NavBar from "./components/NavBar"
 import Hero from "./components/Hero"
-import Intro from "./components/intro"
+import Intro from "./components/Intro"
 import Highlight from "./components/Highlight"
-import Colors from "./components/colors"
+import Colors from "./components/Colors"
 import Footer from "./components/Footer"
 
 function App() {
